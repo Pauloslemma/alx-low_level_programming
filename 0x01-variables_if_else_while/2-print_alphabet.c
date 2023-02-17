@@ -1,19 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
+ * main-Prints the alphabet.
  *
  * Return: Always 0 (Success)
  */
-int main() {
-    // Print the alphabet in lowercase
-    for (char c = 'a'; c <= 'z'; c++) {
-        putchar(c);
-    }
+int main(void)
+{
+	char alp[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-    // Print a new line
-    putchar('\n');
-
-    return 0;
+	for (i = 0; i < 26; i++)
+        {
+		putchar(alp[i]);
+	}
+	putchar('\n');
+	return (0);
 }
