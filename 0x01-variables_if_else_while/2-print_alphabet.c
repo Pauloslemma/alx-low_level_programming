@@ -6,13 +6,14 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	char low;
+int main() {
+    // Print the alphabet in lowercase
+    for (char c = 'a'; c <= 'z'; c++) {
+        putchar(c);
+    }
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		printf("\n");
+    // Print a new line
+    putchar('\n');
 
-	return (0);
+    return 0;
 }
