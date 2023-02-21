@@ -16,6 +16,6 @@ int main(void)
 	}
 	i++;
 	}
-	printf(n % d, z);
+	printf('n' % 'd', z);
 	return (0);
 }
