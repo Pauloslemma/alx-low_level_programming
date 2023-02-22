@@ -34,7 +34,7 @@ return (largest);
 * Return: 0
 */
 
-int main(void)
+int convert_day(int month, int day);
 {
 int a, b, c;
 int largest;
