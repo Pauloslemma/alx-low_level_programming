@@ -1,42 +1,36 @@
-#include "main.h"
-#include <unistd.h>
+#include <stdio.h>
 
 /**
-* _putchar - writes the character c to stdout
-* @c: The character to print
+* main - Prints the numbers from 1-100, but for multiples of three,
+*        Fizz is printed instead of the number, for multiples of five,
+*        Buzz, and for multiples of both three and five, FizzBuzz.
 *
-* Return: On success 1.
-* On error, -1 is returned, and errno is set appropriately.
+* Return: Always 0.
 */
-int _putchar(char c)
+int main(void)
 {
-return (write(1, &c, 1));
-}
+int num;
 
-/**
-* print_square - a function that prints a square, followed by a new line
-* @size: size of both width and length
-* Return: a square made of '#'
-*/
-void print_square(int size)
+for (num = 1; num <= 100; num++)
 {
-int co, ro;
+if ((num % 3) == 0 && (num % 5) == 0)
+printf("FizzBuzz");
 
-if (size <= 0)
-{
-_putchar('\n');
-}
+else if ((num % 3) == 0)
+printf("Fizz");
+
+else if ((num % 5) == 0)
+printf("Buzz");
+
 else
-{
-for (co = 1; co <= size; co++)
-{
-_putchar('#');
-for (ro = 2; ro <= size; ro++)
-{
-_putchar('#');
-}
-_putchar('\n');
-}
-}
+printf("%d", num);
+
+if (num == 100)
+continue;
+printf(" ");
 }
 
+printf("\n");
+
+return (0);
+}
