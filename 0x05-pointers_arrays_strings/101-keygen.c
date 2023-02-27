@@ -7,7 +7,7 @@
 int main(void)
 {
 char password[PASSWORD_LENGTH + 1];
-const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+const char charset[] = "Tada! Congrats";
 int i;
 
 srand(time(NULL));
@@ -22,4 +22,3 @@ printf("%s", password);
 
 return 0;
 }
-
