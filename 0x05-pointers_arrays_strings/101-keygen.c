@@ -1,25 +1,32 @@
-#include"main.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 
-#define PASSWORD_LENGTH 12
-
+/**
+ * main - paso
+ *
+ * Return: int 0;
+ */
 int main(void)
 {
-char password[PASSWORD_LENGTH + 1];
-const char charset[] = "Tada! Congrats";
-int i;
+char str[100];
+int i = 0, randNum = 0, suma = 0;
 
-srand(time(NULL));
+srand (time(NULL));
 
-for (i = 0; i < PASSWORD_LENGTH; i++) {
-password[i] = charset[rand() % (sizeof(charset) - 1)];
+
+for (i = 0; suma <= 2644; i++)
+{
+randNum = (rand() % 25) + 65;
+
+str[i] = randNum;
+suma = suma + randNum;
 }
 
-password[PASSWORD_LENGTH] = '\0';
+str[i++] = 2772 - suma;
+str[i++] = '\0';
 
-printf("%s", password);
+printf("%s\n", str);
 
-return 0;
+return (0);
 }
