@@ -2,11 +2,11 @@
 
 /**
 *reset_to_98 - write the function that pointer to int in parameter
-*and updaate the value to 98
+*and update the value to 98
 *@n: input
 *Return: n
 */
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 *n = 98;
 }
