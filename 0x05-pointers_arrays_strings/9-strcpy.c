@@ -16,4 +16,4 @@ while (*src)
 *dest = 0;
 }
 return (guard);
-}i
+}
