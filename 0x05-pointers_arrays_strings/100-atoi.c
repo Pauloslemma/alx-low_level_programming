@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
-* _atoi -function that convert a string to an interger
-* @s: string to convert
-*Return: int
-*/
-int _atoi(char *s);
+ * _atoi - converts a string to an integer
+ * @s: string to be converted
+ *
+ * Return: the int converted from the string
+ */
+int _atoi(char *s)
 {
 int i, d, n, len, f, digit;
 
@@ -18,12 +19,13 @@ digit = 0;
 
 while (s[len] != '\0')
 len++;
+
 while (i < len && f == 0)
 {
 if (s[i] == '-')
 ++d;
 
-if (s[i] >= '0' && s[i] <= '9'}
+if (s[i] >= '0' && s[i] <= '9')
 {
 digit = s[i] - '0';
 if (d % 2)
@@ -36,10 +38,9 @@ f = 0;
 }
 i++;
 }
+
 if (f == 0)
-{
 return (0);
-}
+
 return (n);
 }
-
