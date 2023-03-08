@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _puts_recursion - Entery point
- *@s: input 
- * return: always 0 (success)
- */
+* _puts_recursion - Entery point
+*@s: input 
+* return: always 0 (success)
+*/
 void _puts_recursion(char *s)
 {
 if (*s == '\0')
