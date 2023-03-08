@@ -2,7 +2,7 @@
 
 /**
 * _puts_recursion - Entery point
-*@s: input 
+*@s: input
 * return: always 0 (success)
 */
 void _puts_recursion(char *s)
