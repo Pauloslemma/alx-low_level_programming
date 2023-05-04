@@ -4,7 +4,7 @@
  *
  * @b: Binary number that is contained by string pointer.
  *
- * Return: Converted unsigned int number or if b is NULL it will be 0 or Contains
+ * Return: Converted unsigned int number or if b is NULL it will be 0 or
  *         char that are not '0' or '1'.
  */
 unsigned int binary_to_uint(const char *b)
