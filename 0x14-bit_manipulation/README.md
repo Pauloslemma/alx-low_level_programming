@@ -1,18 +1,18 @@
-<b2>0x14. C - Bit manipulation</b2>
-
-<b3>Learning Objectives</b3>
+<h2>0x14. C - Bit manipulation</h2>
+<ul>
+<h3>Learning Objectives</h3>
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-<b3>General</b3>
+<h3>General</h3>
 Look for the right source of information without too much help
 How to manipulate bits and use bitwise operators
-<b3>Copyright - Plagiarism</b3>
+<h3>Copyright - Plagiarism</h3>
 You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
 You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
-<b3>Requirements</b3>
-<b4>General</b4>
+<h3>Requirements</h3>
+<h4>General</h4>
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
@@ -26,4 +26,5 @@ You don’t have to push _putchar.c, we will use our file. If you do it won’t 
 In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
 The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 Don’t forget to push your header file
-All your header files should be include guarded
+All your header files should be include guarded.
+</ul>
