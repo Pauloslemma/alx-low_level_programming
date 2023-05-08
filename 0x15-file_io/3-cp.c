@@ -47,7 +47,7 @@ exit(100);
 /**
 * main - Files to be copies to  another file.
 * @argv: The arguments for the an array of pointers.
-* @argv: Number of arguments that  supplied for the program.
+* @argc: Number of arguments that  supplied for the program.
 *
 *
 * Return: success on 0.
