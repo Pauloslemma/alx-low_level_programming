@@ -1,13 +1,13 @@
-ifndef LISTS_H
+#ifndef LISTS_H
 #define LISTS_H
 
 #include <stdarg.h>
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <string.h>
 #include <limits.h>
-#include <unistd.h>
+
 /**
  * struct dlistint_s - doubly linked list
  * @n: integer
@@ -15,13 +15,13 @@ ifndef LISTS_H
  * @next: points to the next node
  *
  * Description: doubly linked list node structure
- * 
+ * for Holberton project
  */
 typedef struct dlistint_s
 {
-    int n;
-    struct dlistint_s *prev;
-    struct dlistint_s *next;
+	int n;
+	struct dlistint_s *prev;
+	struct dlistint_s *next;
 } dlistint_t;
 
 int _putchar(char c);
