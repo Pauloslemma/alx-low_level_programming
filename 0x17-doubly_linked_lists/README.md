@@ -1,5 +1,5 @@
-#Requirements
--##General
+<h1>Requirements</h1>
+<h3>General</h3>
 - Allowed editors: vi, vim, emacs
 - All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 - All your files should end with a new line
@@ -13,26 +13,27 @@
 - Don’t forget to push your header file
 - All your header files should be include guarded
 
-###More Info
-####Please use this data structure for this project:
+<h3>More Info</h3>
+<p>Please use this data structure for this project:</p>
 
 /**
  * struct dlistint_s - doubly linked list
- * @n: integer
+ * @n: integer0
  * @prev: points to the previous node
  * @next: points to the next node
  *
  * Description: doubly linked list node structure
  * 
  */
-typedef struct dlistint_s
+<p>typedef struct dlistint_s
 {
     int n;
     struct dlistint_s *prev;
     struct dlistint_s *next;
 } dlistint_t;
+</p>
 
-###Task 0
+### Task 0
 - Write a function that prints all the elements of a dlistint_t list.
 
 -  Prototype: size_t print_dlistint(const dlistint_t *h);
